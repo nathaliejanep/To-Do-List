@@ -30,6 +30,7 @@ export function renderTasks() {
         del.id = i;
         li.insertAdjacentElement('afterbegin', del);
 
+        input.value = "";
         sortTasks();
     };
 };
